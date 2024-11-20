@@ -1,0 +1,2 @@
+graphviz
+docker desktop

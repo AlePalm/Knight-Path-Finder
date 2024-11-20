@@ -1,0 +1,9 @@
+services:
+  knight-path-finder:
+    image: knight-path-finder:latest
+    build: .
+    container_name: knight-path-finder
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: python main.py
